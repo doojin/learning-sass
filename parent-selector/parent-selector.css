@@ -1,0 +1,40 @@
+.class1, .class2, .class3, .class4 {
+  margin-top: 10px;
+  cursor: default;
+  font: normal 14px Tahoma;
+  background-color: #DBF0D3; }
+  .class1:hover, .class2:hover, .class3:hover, .class4:hover {
+    background-color: #F0E8D3; }
+
+a {
+  color: #006925;
+  font-weight: bold;
+  font-size: 18px; }
+  .class1 a:hover {
+    color: #9C001D; }
+  .class2 a:hover {
+    color: #05009C; }
+  .class3 a:hover {
+    color: #009C1D; }
+  .class4 a:hover {
+    color: #9C8700; }
+
+.container {
+  width: 500px;
+  margin-top: 30px;
+  background-color: #EBE4BC;
+  border: solid 1px #DBD18F; }
+  .container > div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 10px; }
+
+.green-text {
+  color: #117300; }
+.green-bg {
+  background-color: #117300; }
+.green-border {
+  border: solid 2px #0B4A00; }
+
+/*# sourceMappingURL=parent-selector.css.map */
