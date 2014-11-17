@@ -1,0 +1,23 @@
+.class1, .class2 {
+  margin-top: 10px;
+  padding: 10px; }
+
+.class1 {
+  width: 180px;
+  text-align: center;
+  border: solid 1px #77B86E;
+  background-color: #96D78D; }
+
+.class2 {
+  width: 215px;
+  border: solid 1px #BABABA;
+  background-color: #EBEBEB; }
+
+.class2 .class1 {
+  border: solid 1px #B87697;
+  background-color: #D99CBA; }
+
+p:nth-child(2) b {
+  color: #001EA3; }
+
+/*# sourceMappingURL=nested-rules.css.map */

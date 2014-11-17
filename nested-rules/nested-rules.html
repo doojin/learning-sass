@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nested Rules</title>
+    <link rel="stylesheet" type="text/css" href="nested-rules.css"/>
+</head>
+<body>
+    <div class="class1">.class1</div>
+    <div class="class1">.class1</div>
+    <div class="class2">
+        .class2
+        <div class="class1">.class2 > .class1</div>
+        <div class="class1">.class2 > .class1</div>
+    </div>
+    <div class="class1">.class1</div>
+    <div class="class1">.class1</div>
+    
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, <b>sed do eiusmod tempor incididunt ut labore</b> et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco <b>laboris nisi ut aliquip ex ea</b> commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <b>Excepteur sint occaecat cupidatat</b> non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <b>Ut enim ad minim veniam, quis nostrud</b> exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in <b>reprehenderit in voluptate</b> velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa <b>qui officia</b> deserunt mollit anim id est laborum.</p>
+        <p>>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore <b>et dolore magna aliqua</b>. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <b>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</b> dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+</body>
+</html>
