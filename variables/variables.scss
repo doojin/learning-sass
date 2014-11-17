@@ -1,0 +1,29 @@
+$size: 200px;
+
+.square {
+    width: $size;
+    height: $size;
+    border: {
+        style: solid;
+        width: 1px;
+        color: #000000;
+    }
+}
+
+.rectangle {
+    &-big, &-small {
+        margin-top: 20px;
+    }
+    &-big {
+        $width: 600px !global;
+        $height: 250px !global;
+        width: $width;
+        height: $height;
+        background-color: #B7C9E8;
+    }
+    &-small {
+        width: $width / 2;
+        height: $height / 2;
+        background-color: #E8C6B7;
+    }
+}
