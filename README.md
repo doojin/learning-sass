@@ -1,9 +1,7 @@
 Installation
 ============
 
-Installing SASS: **gem install sass**
-
-If using Windows, should install Ruby first
+Installing SASS (If using Windows, should install Ruby first): **gem install sass**
 
 Running SASS from command line: **sass input.scss filename.scss**
 
