@@ -1,7 +1,7 @@
 Installation
 ============
 
-Installing SASS: gem install sass
+Installing SASS: **gem install sass**
 
 If using Windows, should install Ruby first
 
