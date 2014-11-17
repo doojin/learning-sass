@@ -1,0 +1,27 @@
+.container {
+  margin: 40px;
+  padding: 15px;
+  background-color: #D3D7F2;
+  font-weight: bold;
+  font-style: italic;
+  font-family: Arial;
+  font-size: 16px;
+  border-style: dotted;
+  border-width: 2px;
+  border-color: #A1A9D6;
+  border-radius: 20px; }
+
+.background {
+  width: 500px;
+  height: 500px;
+  border: solid;
+    border-width: 3px;
+    border-color: #6985B5;
+  border-top: dashed;
+    border-top-width: 6px;
+    border-top-color: #B569A3;
+  background: url("background.jpg");
+    background-repeat: no-repeat;
+    background-position: center; }
+
+/*# sourceMappingURL=nested-properties.css.map */
