@@ -1,0 +1,60 @@
+$defaultMargin: 30px 0 0 0;
+
+.resize-cursor {
+    width: 300px;
+    height: 80px;
+    border: {
+        style: dotted;
+        width: 1px;
+        color: #AAAAAA;
+    }
+    cursor: e + -resize;
+}
+
+.text1 {
+    margin: $defaultMargin;
+    &:before {
+        content: "before content";
+    }
+}
+
+.text2 {
+    margin: $defaultMargin;
+    &:before {
+        content: "before " + content;
+    }
+}
+
+.text3 {
+    margin: $defaultMargin;
+    &:before {
+        content: "" + before + " " + content;
+    }
+}
+
+.text4 {
+    margin: $defaultMargin {
+        left: 10px + 25px;   
+    }
+    border: {
+        style: solid;
+        width: 1px;
+        color: #DDDDDD;
+    }
+}
+
+.text5 {
+    margin: $defaultMargin;
+    
+    &:before {
+        content: "Five plus two equals #{5+2}";
+    }
+}
+
+.text6 {
+    margin: $defaultMargin;
+
+    &:before {
+        content: "Here is null value: #{null}";
+    }
+}

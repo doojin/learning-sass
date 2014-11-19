@@ -1,0 +1,41 @@
+.resize-cursor {
+  width: 300px;
+  height: 80px;
+  border-style: dotted;
+  border-width: 1px;
+  border-color: #AAAAAA;
+  cursor: e-resize; }
+
+.text1 {
+  margin: 30px 0 0 0; }
+  .text1:before {
+    content: "before content"; }
+
+.text2 {
+  margin: 30px 0 0 0; }
+  .text2:before {
+    content: "before content"; }
+
+.text3 {
+  margin: 30px 0 0 0; }
+  .text3:before {
+    content: "before content"; }
+
+.text4 {
+  margin: 30px 0 0 0;
+    margin-left: 35px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #DDDDDD; }
+
+.text5 {
+  margin: 30px 0 0 0; }
+  .text5:before {
+    content: "Five plus two equals 7"; }
+
+.text6 {
+  margin: 30px 0 0 0; }
+  .text6:before {
+    content: "Here is null value: "; }
+
+/*# sourceMappingURL=strings.css.map */
