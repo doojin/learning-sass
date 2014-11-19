@@ -1,0 +1,17 @@
+$defaultWidth: 500px;
+$defaultHeight: 50px;
+$defaultBgColor: #BBBBBB;
+$defaultFont: unquote("Yanone Kaffeesatz");
+
+@import "file";
+@import "file2.scss";
+@import "styles.css";
+@import "http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz";
+
+.class3 {
+    font: normal 36px $defaultFont;
+}
+
+.class4 {
+    @import "defaultDivStyles";
+}
