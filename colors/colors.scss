@@ -1,5 +1,8 @@
 $baseColor: #000000;
 $baseGreen: #555555;
+$baseRed: rgb(255, 0, 0);
+$baseBlue: rgba(0, 0, 255, 0);
+$background: 'background.jpg';
 
 $block-width: 500px;
 $block-height: 40px;
@@ -42,4 +45,56 @@ $block-height: 40px;
     .color8 { background-color: $baseGreen + #008800; }
     .color9 { background-color: $baseGreen + #009900; }
     .color10 { background-color: $baseGreen + #00AA00; }
+}
+
+.red-colors {
+    width: $block-width;
+    margin-top: 30px;
+    
+    background: {
+        image: url($background);
+        size: 100%;
+    }
+    
+    > div {
+        width: $block-width;
+        height: $block-height;
+    }
+    
+    .color1 { background-color: transparentize($baseRed, 0.1); }
+    .color2 { background-color: transparentize($baseRed, 0.2); }
+    .color3 { background-color: transparentize($baseRed, 0.3); }
+    .color4 { background-color: transparentize($baseRed, 0.4); }
+    .color5 { background-color: transparentize($baseRed, 0.5); }
+    .color6 { background-color: transparentize($baseRed, 0.6); }
+    .color7 { background-color: transparentize($baseRed, 0.7); }
+    .color8 { background-color: transparentize($baseRed, 0.8); }
+    .color9 { background-color: transparentize($baseRed, 0.9); }
+    .color10 { background-color: transparentize($baseRed, 1); }
+}
+
+.blue-colors {
+    width: $block-width;
+    margin-top: 30px;
+    
+    background: {
+        image: url($background);
+        size: 100%;
+    }
+    
+    > div {
+        width: $block-width;
+        height: $block-height;
+    }
+    
+    .color1 { background-color: opacify($baseBlue, 0.1); }
+    .color2 { background-color: opacify($baseBlue, 0.2); }
+    .color3 { background-color: opacify($baseBlue, 0.3); }
+    .color4 { background-color: opacify($baseBlue, 0.4); }
+    .color5 { background-color: opacify($baseBlue, 0.5); }
+    .color6 { background-color: opacify($baseBlue, 0.6); }
+    .color7 { background-color: opacify($baseBlue, 0.7); }
+    .color8 { background-color: opacify($baseBlue, 0.8); }
+    .color9 { background-color: opacify($baseBlue, 0.9); }
+    .color10 { background-color: opacify($baseBlue, 1); }
 }

@@ -50,4 +50,62 @@
   .green-colors .color10 {
     background-color: #55ff55; }
 
+.red-colors {
+  width: 500px;
+  margin-top: 30px;
+  background-image: url("background.jpg");
+  background-size: 100%; }
+  .red-colors > div {
+    width: 500px;
+    height: 40px; }
+  .red-colors .color1 {
+    background-color: rgba(255, 0, 0, 0.9); }
+  .red-colors .color2 {
+    background-color: rgba(255, 0, 0, 0.8); }
+  .red-colors .color3 {
+    background-color: rgba(255, 0, 0, 0.7); }
+  .red-colors .color4 {
+    background-color: rgba(255, 0, 0, 0.6); }
+  .red-colors .color5 {
+    background-color: rgba(255, 0, 0, 0.5); }
+  .red-colors .color6 {
+    background-color: rgba(255, 0, 0, 0.4); }
+  .red-colors .color7 {
+    background-color: rgba(255, 0, 0, 0.3); }
+  .red-colors .color8 {
+    background-color: rgba(255, 0, 0, 0.2); }
+  .red-colors .color9 {
+    background-color: rgba(255, 0, 0, 0.1); }
+  .red-colors .color10 {
+    background-color: rgba(255, 0, 0, 0); }
+
+.blue-colors {
+  width: 500px;
+  margin-top: 30px;
+  background-image: url("background.jpg");
+  background-size: 100%; }
+  .blue-colors > div {
+    width: 500px;
+    height: 40px; }
+  .blue-colors .color1 {
+    background-color: rgba(0, 0, 255, 0.1); }
+  .blue-colors .color2 {
+    background-color: rgba(0, 0, 255, 0.2); }
+  .blue-colors .color3 {
+    background-color: rgba(0, 0, 255, 0.3); }
+  .blue-colors .color4 {
+    background-color: rgba(0, 0, 255, 0.4); }
+  .blue-colors .color5 {
+    background-color: rgba(0, 0, 255, 0.5); }
+  .blue-colors .color6 {
+    background-color: rgba(0, 0, 255, 0.6); }
+  .blue-colors .color7 {
+    background-color: rgba(0, 0, 255, 0.7); }
+  .blue-colors .color8 {
+    background-color: rgba(0, 0, 255, 0.8); }
+  .blue-colors .color9 {
+    background-color: rgba(0, 0, 255, 0.9); }
+  .blue-colors .color10 {
+    background-color: blue; }
+
 /*# sourceMappingURL=colors.css.map */
