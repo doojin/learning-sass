@@ -1,0 +1,53 @@
+.black-white {
+  margin-top: 10px; }
+  .black-white > div {
+    width: 500px;
+    height: 40px; }
+  .black-white .color1 {
+    background-color: #111111; }
+  .black-white .color2 {
+    background-color: #222222; }
+  .black-white .color3 {
+    background-color: #333333; }
+  .black-white .color4 {
+    background-color: #444444; }
+  .black-white .color5 {
+    background-color: #555555; }
+  .black-white .color6 {
+    background-color: #666666; }
+  .black-white .color7 {
+    background-color: #777777; }
+  .black-white .color8 {
+    background-color: #888888; }
+  .black-white .color9 {
+    background-color: #999999; }
+  .black-white .color10 {
+    background-color: #aaaaaa; }
+
+.green-colors {
+  margin-top: 30px; }
+  .green-colors > div {
+    width: 500px;
+    height: 40px; }
+  .green-colors .color1 {
+    background-color: #556655; }
+  .green-colors .color2 {
+    background-color: #557755; }
+  .green-colors .color3 {
+    background-color: #558855; }
+  .green-colors .color4 {
+    background-color: #559955; }
+  .green-colors .color5 {
+    background-color: #55aa55; }
+  .green-colors .color6 {
+    background-color: #55bb55; }
+  .green-colors .color7 {
+    background-color: #55cc55; }
+  .green-colors .color8 {
+    background-color: #55dd55; }
+  .green-colors .color9 {
+    background-color: #55ee55; }
+  .green-colors .color10 {
+    background-color: #55ff55; }
+
+/*# sourceMappingURL=colors.css.map */

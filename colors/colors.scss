@@ -1,0 +1,45 @@
+$baseColor: #000000;
+$baseGreen: #555555;
+
+$block-width: 500px;
+$block-height: 40px;
+
+.black-white {
+    margin-top: 10px;
+    
+    > div {
+        width: $block-width;
+        height: $block-height; 
+    }
+    
+    .color1 { background-color: $baseColor + #111111; }
+    .color2 { background-color: $baseColor + #222222; }
+    .color3 { background-color: $baseColor + #333333; }
+    .color4 { background-color: $baseColor + #444444; }
+    .color5 { background-color: $baseColor + #555555; }
+    .color6 { background-color: $baseColor + #666666; }
+    .color7 { background-color: $baseColor + #777777; }
+    .color8 { background-color: $baseColor + #888888; }
+    .color9 { background-color: $baseColor + #999999; }
+    .color10 { background-color: $baseColor + #AAAAAA; }
+}
+
+.green-colors {
+    margin-top: 30px;
+    
+    > div {
+        width: $block-width;
+        height: $block-height;
+    }
+    
+    .color1 { background-color: $baseGreen + #001100; }
+    .color2 { background-color: $baseGreen + #002200; }
+    .color3 { background-color: $baseGreen + #003300; }
+    .color4 { background-color: $baseGreen + #004400; }
+    .color5 { background-color: $baseGreen + #005500; }
+    .color6 { background-color: $baseGreen + #006600; }
+    .color7 { background-color: $baseGreen + #007700; }
+    .color8 { background-color: $baseGreen + #008800; }
+    .color9 { background-color: $baseGreen + #009900; }
+    .color10 { background-color: $baseGreen + #00AA00; }
+}
