@@ -1,0 +1,32 @@
+.class1 {
+    border: solid 1px #CCCCCC;
+    margin-bottom: 10px;
+    padding: 10px;
+    
+    @at-root {
+        .sub-class1 {
+            width: 300px;
+            padding: 5px;
+            background-color: #CCCCCC;
+        }
+    }
+}
+
+.class2 {
+    border: solid 1px #CCCCCC;
+    margin-top: 20px;
+    padding: 10px;
+    
+    .sub-class2 {
+        padding: 10px;
+        background-color: #EEEEEE;
+        
+        @at-root (with: background-color) {
+            .sub-sub-class2 {
+                @extend .sub-class2;
+                border: solid 1px #999999;
+                background-color: #DDDDDD;
+            }
+        }
+    }
+}

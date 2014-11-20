@@ -1,0 +1,21 @@
+.class1 {
+  border: solid 1px #CCCCCC;
+  margin-bottom: 10px;
+  padding: 10px; }
+  .sub-class1 {
+    width: 300px;
+    padding: 5px;
+    background-color: #CCCCCC; }
+
+.class2 {
+  border: solid 1px #CCCCCC;
+  margin-top: 20px;
+  padding: 10px; }
+  .class2 .sub-class2, .class2 .sub-sub-class2 {
+    padding: 10px;
+    background-color: #EEEEEE; }
+    .sub-sub-class2 {
+      border: solid 1px #999999;
+      background-color: #DDDDDD; }
+
+/*# sourceMappingURL=at-root.css.map */
