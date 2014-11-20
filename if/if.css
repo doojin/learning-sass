@@ -1,0 +1,19 @@
+.squares .square1, .squares .square2 {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+  border-style: dashed;
+  border-width: 1px;
+  border-color: #777777; }
+.squares .square2 {
+  border-style: solid;
+  border-color: #55CC55; }
+
+.green {
+  width: 300px;
+  height: 30px;
+  margin-top: 20px;
+  background-color: #55AA55; }
+
+/*# sourceMappingURL=if.css.map */

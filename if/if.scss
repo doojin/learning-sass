@@ -1,0 +1,57 @@
+$squareSize: 70px;
+$activeSquare: 2;
+
+.squares {
+    
+    %square {
+        display: inline-block;
+        width: $squareSize;
+        height: $squareSize;
+        margin-right: 10px;
+        border: {
+            style: dashed;
+            width: 1px;
+            color: #777777;
+        }
+    }
+    
+    %active {
+        border: {
+            style: solid;
+            color: #55CC55;
+        }
+    }
+    
+    .square1 {
+        @extend %square;
+        @if $activeSquare == 1 {
+            @extend %active;
+        }
+    }
+    
+    .square2 {
+        @extend %square;
+        @if $activeSquare == 2 {
+            @extend %active;
+        }
+    }
+}
+
+$greenLevel: 0;
+$greenColor: #55AA55;
+
+.green {
+    $actualColor: #55AA55;
+    @if $greenLevel == 1 {
+        $actualColor: $actualColor + #005500;
+    } @else if $greenLevel == -1 {
+        $actualColor: $actualColor - #005500;
+    }
+    width: 300px;
+    height: 30px;
+    margin: {
+        top: 20px;
+    }
+    background-color: $actualColor;
+}
+
