@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+}
+
+@function column-width($columnCount) {
+    @return 100% / $columnCount;
+}
+
+.grid {
+    .column {
+        display: inline-block;
+        margin-right: -5px;
+        border: solid 1px #777777;
+        text-align: center;
+    }
+    
+    &.one-column {
+        .column {
+            width: column-width(1);
+        }
+    }
+    
+    &.two-column {
+        .column {
+            width: column-width(2);
+        }
+    }
+    
+    &.three-column {
+        .column {
+            width: column-width(3);
+        }
+    }
+    
+    &.four-column {
+        .column {
+            width: column-width(4);
+        }
+    }
+}
+
+@function redColor($level) {
+    $baseColor: #664444;
+    @return $baseColor + $level * #110000;
+}
+
+.red {
+    margin-top: 20px;
+    
+    > div {
+        height: 20px;
+    }
+    
+    @for $i from 1 through 10 {
+        .level#{$i} {
+            background-color: redColor($i);
+        }
+    }
+}
