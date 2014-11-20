@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    
+    .block {
+        width: 100%;
+        color: #FF0000;
+        
+        .sub-block {
+            color: #00FF00;
+            border: {
+                style: dotted;
+                width: 2px;
+                color: #000000;
+            }
+            
+            .sub-sub-block {
+                color: #0000FF;
+            }
+        }
+    }
+}
