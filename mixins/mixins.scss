@@ -1,0 +1,112 @@
+@mixin green-text {
+    color: #3A912F;
+    &:after {
+        content: "after";
+    }
+}
+
+%green-text {
+    color: #3A912F;
+    &:after {
+        content: "after";
+    }
+}
+
+.class1 {
+    @include green-text;
+}
+
+.class2 {
+    @extend %green-text;
+}
+
+@mixin red {
+    color: #FF0000;
+    @include red-border;
+    @include red-background;
+}
+
+@mixin red-border {
+    border: solid 2px #FF0000;
+}
+
+@mixin red-background {
+    background-color: #FFEEEE;
+}
+
+.red {
+    width: 500px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    @include red;
+}
+
+@mixin rounded-corners($size: 10px) {
+    -webkit-border-radius: $size;
+    -moz-border-radius: $size;
+    border-radius: $size;
+}
+
+.rounded-div {
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+    border: solid 1px #777777;
+    @include rounded-corners(20px);
+}
+
+span.rounded {
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin: 10px 0 0 10px;
+    border: solid 1px #999999;
+    line-height: 30px;
+    text-align: center;
+    @include rounded-corners;
+}
+
+@mixin line($color: #000000, $text: "default text") {
+    margin-top: 20px;
+    border-top: solid 3px $color;
+    &:after {
+        content: $text;
+    }
+}
+
+.line1 {
+    @include line($text: "Hello, world!");
+}
+
+.line2 {
+    @include line($color: #007700);
+}
+
+@mixin margin($marginTop, $marginRight, $marginBottom, $marginLeft) {
+    margin: {
+        top: $marginTop;
+        right: $marginRight;
+        bottom: $marginBottom;
+        left: $marginLeft;
+    }
+}
+
+.margined-div {
+    border: solid 1px #555555;
+    $divMargins: 25px 50px 0 200px;
+    @include margin($divMargins...);
+}
+
+@mixin paragraph {
+    p {
+        border: dotted 1px #999999;
+        @content;
+    }
+}
+
+.texts {
+    @include paragraph {
+        color: #0000FF;
+    }
+}

@@ -1,0 +1,64 @@
+.class2 {
+  color: #3A912F; }
+  .class2:after {
+    content: "after"; }
+
+.class1 {
+  color: #3A912F; }
+  .class1:after {
+    content: "after"; }
+
+.red {
+  width: 500px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #FF0000;
+  border: solid 2px #FF0000;
+  background-color: #FFEEEE; }
+
+.rounded-div {
+  width: 200px;
+  height: 200px;
+  margin-top: 15px;
+  border: solid 1px #777777;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px; }
+
+span.rounded {
+  display: block;
+  width: 100px;
+  height: 30px;
+  margin: 10px 0 0 10px;
+  border: solid 1px #999999;
+  line-height: 30px;
+  text-align: center;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px; }
+
+.line1 {
+  margin-top: 20px;
+  border-top: solid 3px #000000; }
+  .line1:after {
+    content: "Hello, world!"; }
+
+.line2 {
+  margin-top: 20px;
+  border-top: solid 3px #007700; }
+  .line2:after {
+    content: "default text"; }
+
+.margined-div {
+  border: solid 1px #555555;
+  margin-top: 25px;
+  margin-right: 50px;
+  margin-bottom: 0;
+  margin-left: 200px; }
+
+.texts p {
+  border: dotted 1px #999999;
+  color: #0000FF; }
+
+/*# sourceMappingURL=mixins.css.map */
