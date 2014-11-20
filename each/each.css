@@ -1,0 +1,38 @@
+.red, .green, .blue {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  border-style: solid;
+  border-width: 2px; }
+
+.red {
+  border-color: #FF8080;
+  color: #A32424;
+  background-color: #FFD9D9; }
+
+.green {
+  border-color: #80FF84;
+  color: #267528;
+  background-color: #CFFFD0; }
+
+.blue {
+  border-color: #8FA3FF;
+  color: #263475;
+  background-color: #D1DAFF; }
+
+.customDiv {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #7A632C;
+  background-color: #E8E0CF;
+  color: #5C4A20;
+  font-weight: bold;
+  width: 315px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  margin-top: 5px; }
+
+/*# sourceMappingURL=each.css.map */
