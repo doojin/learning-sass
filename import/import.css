@@ -1,59 +1,16 @@
-/*
-Error: File to import not found or unreadable: defaultDivStyles.
-       Load path: /home/ubuntu/workspace/import
-        on line 16 of ./import.scss
+@import url(styles.css);
+@import "http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz";
+.class1 {
+  width: 500px;
+  height: 50px;
+  background-color: #BBBBBB; }
 
-11: .class3 {
-12:     font: normal 36px $defaultFont;
-13: }
-14: 
-15: .class4 {
-16:     @import "defaultDivStyles";
-17: }
+.class2 {
+  width: 500px;
+  height: 50px;
+  background-color: #666666; }
 
-Backtrace:
-./import.scss:16
-/usr/local/rvm/gems/ruby-2.1.4@rails4/gems/sass-3.4.8/lib/sass/tree/import_node.rb:66:in `rescue in import'
-/usr/local/rvm/gems/ruby-2.1.4@rails4/gems/sass-3.4.8/lib/sass/tree/import_node.rb:45:in `import'
-/usr/local/rvm/gems/ruby-2.1.4@rails4/gems/sass-3.4.8/lib/sass/tree/import_node.rb:28:in `imported_file'
-/usr/local/rvm/gems/ruby-2.1.4@rails4/gems/sass-3.4.8/lib/sass/tree/visitors/check_nesting.rb:107:in `rescue in invalid_import_parent?'
-/usr/local/rvm/gems/ruby-2.1.4@rails4/gems/sass-3.4.8/lib/sass/tree/visitors/check_nesting.rb:101:in `invalid_import_parent?'
-/usr/local/rvm/gems/ruby-2.1.4@rails4/gems/sass-3.4.8/lib/sass/tree/visitors/check_nesting.rb:175:in `try_send'
-/usr/local/rvm/gems/ruby-2.1.4@rails4/gems/sass-3.4.8/lib/sass/tree/visitors/check_nesting.rb:12:in `visit'
-/usr/local/rvm/gems/ruby-2.1.4@rails4/gems/sass-3.4.8/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/usr/local/rvm/gems/ruby-2.1.4@rails4/gems/sass-3.4.8/lib/sass/tree/visitors/base.rb:52:in `map'
-/usr/local/rvm/gems/ruby-2.1.4@rails4/gems/sass-3.4.8/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/usr/local/rvm/gems/ruby-2.1.4@rails4/gems/sass-3.4.8/lib/sass/tree/visitors/check_nesting.rb:49:in `visit_children'
-/usr/local/rvm/gems/ruby-2.1.4@rails4/gems/sass-3.4.8/lib/sass/tree/visitors/base.rb:38:in `visit'
-/usr/local/rvm/gems/ruby-2.1.4@rails4/gems/sass-3.4.8/lib/sass/tree/visitors/check_nesting.rb:15:in `visit'
-/usr/local/rvm/gems/ruby-2.1.4@rails4/gems/sass-3.4.8/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/usr/local/rvm/gems/ruby-2.1.4@rails4/gems/sass-3.4.8/lib/sass/tree/visitors/base.rb:52:in `map'
-/usr/local/rvm/gems/ruby-2.1.4@rails4/gems/sass-3.4.8/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/usr/local/rvm/gems/ruby-2.1.4@rails4/gems/sass-3.4.8/lib/sass/tree/visitors/check_nesting.rb:49:in `visit_children'
-/usr/local/rvm/gems/ruby-2.1.4@rails4/gems/sass-3.4.8/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/usr/local/rvm/gems/ruby-2.1.4@rails4/gems/sass-3.4.8/lib/sass/tree/visitors/check_nesting.rb:57:in `visit_root'
-/usr/local/rvm/gems/ruby-2.1.4@rails4/gems/sass-3.4.8/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/local/rvm/gems/ruby-2.1.4@rails4/gems/sass-3.4.8/lib/sass/tree/visitors/check_nesting.rb:15:in `visit'
-/usr/local/rvm/gems/ruby-2.1.4@rails4/gems/sass-3.4.8/lib/sass/tree/visitors/base.rb:24:in `visit'
-/usr/local/rvm/gems/ruby-2.1.4@rails4/gems/sass-3.4.8/lib/sass/tree/root_node.rb:35:in `css_tree'
-/usr/local/rvm/gems/ruby-2.1.4@rails4/gems/sass-3.4.8/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/usr/local/rvm/gems/ruby-2.1.4@rails4/gems/sass-3.4.8/lib/sass/engine.rb:368:in `_render_with_sourcemap'
-/usr/local/rvm/gems/ruby-2.1.4@rails4/gems/sass-3.4.8/lib/sass/engine.rb:285:in `render_with_sourcemap'
-/usr/local/rvm/gems/ruby-2.1.4@rails4/gems/sass-3.4.8/lib/sass/plugin/compiler.rb:489:in `update_stylesheet'
-/usr/local/rvm/gems/ruby-2.1.4@rails4/gems/sass-3.4.8/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/usr/local/rvm/gems/ruby-2.1.4@rails4/gems/sass-3.4.8/lib/sass/plugin/compiler.rb:209:in `each'
-/usr/local/rvm/gems/ruby-2.1.4@rails4/gems/sass-3.4.8/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/usr/local/rvm/gems/ruby-2.1.4@rails4/gems/sass-3.4.8/lib/sass/plugin/compiler.rb:469:in `on_file_changed'
-/usr/local/rvm/gems/ruby-2.1.4@rails4/gems/sass-3.4.8/lib/sass/plugin/compiler.rb:328:in `block in watch'
-/usr/local/rvm/gems/ruby-2.1.4@rails4/gems/sass-3.4.8/vendor/listen/lib/listen/listener.rb:252:in `call'
-/usr/local/rvm/gems/ruby-2.1.4@rails4/gems/sass-3.4.8/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/usr/local/rvm/gems/ruby-2.1.4@rails4/gems/sass-3.4.8/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/usr/local/rvm/gems/ruby-2.1.4@rails4/gems/sass-3.4.8/vendor/listen/lib/listen/adapter.rb:254:in `call'
-/usr/local/rvm/gems/ruby-2.1.4@rails4/gems/sass-3.4.8/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
-/usr/local/rvm/gems/ruby-2.1.4@rails4/gems/sass-3.4.8/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
-/usr/local/rvm/gems/ruby-2.1.4@rails4/gems/sass-3.4.8/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: File to import not found or unreadable: defaultDivStyles.\A        Load path: /home/ubuntu/workspace/import\A         on line 16 of ./import.scss\A \A 11: .class3 {\A 12:     font: normal 36px $defaultFont;\A 13: }\A 14: \A 15: .class4 {\A 16:     @import \"defaultDivStyles\";\A 17: }"; }
+.class3 {
+  font: normal 36px Yanone Kaffeesatz; }
+
+/*# sourceMappingURL=import.css.map */
