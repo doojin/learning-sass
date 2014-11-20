@@ -1,0 +1,117 @@
+.links {
+    a:hover {
+        font: {
+            weight: bold;
+            style: italic;
+        }
+        text-decoration: none;
+    }
+    .pseudo-link {
+        @extend a;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
+
+%error {
+    width: 90%;
+    margin: 10px auto 10px auto;
+    border: {
+        style: solid;
+        width: 3px;
+        color: #888888;
+    }
+    padding: 0px 10px 5px 10px;
+    font-size: 12px;
+}
+
+.red-error {
+    @extend %error;
+    h1 {
+        color: #C41D1D;
+    }
+    p {
+        color: #916A6A
+    }
+    border-color: #916A6A;
+}
+
+.blue-error {
+    @extend %error;
+    h1 {
+        color: #1986CF;
+    }
+    p {
+        color: #587487
+    }
+    border-color: #587487;
+}
+
+.green-error {
+    @extend %error;
+    h1 {
+        color: #23C41D;
+    }
+    p {
+        color: #598758
+    }
+    border-color: #598758;
+}
+
+.orange-error {
+    @extend %error;
+    h1 {
+        color: #DE9218;
+    }
+    p {
+        color: #91866A
+    }
+    border-color: #91866A;
+}
+
+.divs {
+    div {
+        width: 100px;
+        height: 20px;
+        margin-top: 10px;
+        border: solid 1px #CCCCCC;
+    }
+    
+    .custom {
+        @extend div;
+        background-color: #EEEEEE;
+    }
+    
+    .special {
+        @extend .custom;
+        box-shadow: 1px 1px 1px #888888;
+    }
+}
+
+.links2 {
+    a {
+        color: black;
+    }
+    .pseudo-link {
+        @extend a;
+        text-decoration: underline;
+        &:hover {
+            border: solid 4px #444499;
+        }
+    }
+    .class1 a {
+        color: green;
+        border: {
+            bottom: {
+                style: dashed;
+                width: 1px;
+                color: #CCCCCC;
+            }
+        }
+    }
+    .class2 a {
+        font: {
+            size: 20px;
+        }
+    }
+}
