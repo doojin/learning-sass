@@ -1,0 +1,92 @@
+.red, .green, .blue {
+  display: inline-block;
+  width: 300px; }
+  .red > div, .green > div, .blue > div {
+    height: 30px; }
+
+.red .level1 {
+  background-color: #665555; }
+.red .level2 {
+  background-color: #775555; }
+.red .level3 {
+  background-color: #885555; }
+.red .level4 {
+  background-color: #995555; }
+.red .level5 {
+  background-color: #aa5555; }
+.red .level6 {
+  background-color: #bb5555; }
+.red .level7 {
+  background-color: #cc5555; }
+.red .level8 {
+  background-color: #dd5555; }
+.red .level9 {
+  background-color: #ee5555; }
+
+.green .level1 {
+  background-color: #556655; }
+.green .level2 {
+  background-color: #557755; }
+.green .level3 {
+  background-color: #558855; }
+.green .level4 {
+  background-color: #559955; }
+.green .level5 {
+  background-color: #55aa55; }
+.green .level6 {
+  background-color: #55bb55; }
+.green .level7 {
+  background-color: #55cc55; }
+.green .level8 {
+  background-color: #55dd55; }
+.green .level9 {
+  background-color: #55ee55; }
+
+.blue .level1 {
+  background-color: #555566; }
+.blue .level2 {
+  background-color: #555577; }
+.blue .level3 {
+  background-color: #555588; }
+.blue .level4 {
+  background-color: #555599; }
+.blue .level5 {
+  background-color: #5555aa; }
+.blue .level6 {
+  background-color: #5555bb; }
+.blue .level7 {
+  background-color: #5555cc; }
+.blue .level8 {
+  background-color: #5555dd; }
+.blue .level9 {
+  background-color: #5555ee; }
+
+.ladder {
+  width: 500px;
+  height: 300px; }
+  .ladder .step1, .ladder .step2, .ladder .step3, .ladder .step4, .ladder .step5, .ladder .step6, .ladder .step7, .ladder .step8, .ladder .step9 {
+    height: 30px;
+    border: solid 1px #AAAAAA;
+    border-bottom: none; }
+  .ladder .step1 {
+    width: 50px; }
+  .ladder .step2 {
+    width: 100px; }
+  .ladder .step3 {
+    width: 150px; }
+  .ladder .step4 {
+    width: 200px; }
+  .ladder .step5 {
+    width: 250px; }
+  .ladder .step6 {
+    width: 300px; }
+  .ladder .step7 {
+    width: 350px; }
+  .ladder .step8 {
+    width: 400px; }
+  .ladder .step9 {
+    width: 450px; }
+  .ladder .step9 {
+    border-bottom: solid 1px #AAAAAA; }
+
+/*# sourceMappingURL=for.css.map */

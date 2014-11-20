@@ -1,0 +1,58 @@
+$defaultColor: #555555;
+
+.red, .green, .blue {
+    display: inline-block;
+    width: 300px;
+    
+    > div {
+        height: 30px;
+    }
+}
+
+.red {
+    @for $i from 1 through 9 {
+        .level#{$i} {
+            background-color: $defaultColor + #110000 * $i;
+        }
+    }
+}
+
+.green {
+    @for $i from 1 through 9 {
+        .level#{$i} {
+            background-color: $defaultColor + #001100 * $i;
+        }
+    }
+}
+
+.blue {
+    @for $i from 1 through 9 {
+        .level#{$i} {
+            background-color: $defaultColor + #000011 * $i;
+        }
+    }
+}
+
+.ladder {
+    $borderStyle: solid 1px #AAAAAA;
+    width: 500px;
+    height: 300px;
+    
+    %step {
+        height: 30px;
+        border: $borderStyle;
+        border-bottom: none;
+    }
+    
+    @for $i from 1 through 9 {
+        .step#{$i} {
+            @extend %step;
+            width: 0px + $i * 50px;
+        }
+    }
+    
+    .step9 {
+        border-bottom: $borderStyle;
+    }
+    
+}
