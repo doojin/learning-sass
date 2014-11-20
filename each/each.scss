@@ -39,3 +39,11 @@ $divOptions: (border-style, solid),
         #{$property}: $value;
     }
 }
+
+.text {
+    @each $header, $size in (h1: 16px, h2: 14px, h3: 12px, h4: 10px) {
+        #{$header} {
+            font-size: $size;
+        }
+    }
+}
